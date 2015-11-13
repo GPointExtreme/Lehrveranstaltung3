@@ -13,8 +13,16 @@ public class ArrayDemo {
 		
 		//Array 1 mit 2 addieren!
 		System.out.println((number1[0] + number2[0]) + ", " + (number1[1] + number2[1]) + ", " + (number1[2] + number2[2]) + "!");
-		//Array 1 un 2 multiplizieren
+		//Array 1 mit 2 multiplizieren
 		System.out.println((number1[0] * number2[0]) + ", " + (number1[1] * number2[1]) + ", " + (number1[2] * number2[2]) + "!");
+		
+		//Array für Wochentage
+		String[] tage = {"Mo", "Di", "Mi", "Do", "Fr", "Sa", "So"};
+		
+		for(int t=0; t < tage.length; t++) {
+			System.out.println(tage[t]);
+		}
+		
 	}
 
 }
